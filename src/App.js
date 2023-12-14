@@ -42,7 +42,7 @@ class App extends Component {
             });
 
             this.setState(() => {
-              return { monster: filteredMonsters };
+              return { monsters: filteredMonsters };
             })
           }}
         />
